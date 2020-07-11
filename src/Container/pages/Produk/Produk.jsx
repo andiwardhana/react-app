@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import myimage from './img/basket.png';
-import myimage2 from './img/pit.png'
+//import myimage2 from './img/pit.png'
 import './Produk.css';
 import CardProduct from './CardProduct/CardProduct';
 import { GlobalConsumer } from '../../../context/context';
@@ -25,7 +25,7 @@ class Produk extends React.Component{
                             <hr/>
                             <div className="header">
                                 <div className="logo">
-                                    <img src={myimage2} alt=""/>
+                                    <img src="" alt=""/>
                                 </div>
                                 <div className="troley">
                                     <img src={myimage} alt=""/>

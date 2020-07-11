@@ -50,7 +50,8 @@ class Controlled extends React.Component {
     render(){
         const{ name, gaji, tgl, jeniskelamin, skills, alamat }= this.state;
         return (
-            <div className="container">
+            
+            <div className="container" >
                 <form onSubmit={this.onSubmit} style={{display: 'flex', flexDirection: 'column'}} >
                     <div className="row">
                         <div className="col-25">
